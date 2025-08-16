@@ -18,6 +18,6 @@ Main page of travel site, made by using Figma template (original-picture.png).
 1. Copy project;
 2. Open "index.html" in browser.
 
-##Screenshots
+## Screenshots
 - Desktop: /screenshots/pc-view;
 - Mobile: /screenshots/mob-view.
