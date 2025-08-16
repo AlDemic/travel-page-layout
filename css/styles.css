@@ -130,6 +130,8 @@ HERO Section
   cursor: pointer;
   position: static;
   align-self: center;
+  border: none;
+  background: none;
 }
 
 .burger .line {

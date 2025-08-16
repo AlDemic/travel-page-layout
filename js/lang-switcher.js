@@ -23,7 +23,7 @@ function applyTranslations(lang) {
   //aria-label translation
   document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => {
     const key = el.getAttribute("data-i18n-aria-label");
-    el.setAttribute = ("aria-label", translations[lang][key] || key);
+    el.setAttribute("data-i18n-aria-label", translations[lang][key] || key);
   });
 
   //html lang
