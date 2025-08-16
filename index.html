@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Page</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="layout">
+    <section class="hero">
+      <div class="hero__bg-pic">
+        <img src="img/dec.png" alt="" aria-hidden="true" />
+      </div>
+      <!--site logo, nav, login, lang-->
+      <header class="hero__header" role="banner">
+        <div class="hero__site-logo">
+            <a href="#" aria-label="Main Site Page" data-i18n-aria-label="header-main-page">
+                <img src="img/title-logo.png" alt="site logo" />
+            </a>
+        </div>
+        <!--Burger button-->
+        <div class="burger" id="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <ul class="hero__header-nav menu-part" role="navigation" aria-label="Main Site Navigation" data-i18n-aria-label="header-site-nav">
+            <li><a href="#" data-i18n="nav-destinations">Destinations</a></li>
+            <li><a href="#" data-i18n="nav-hotels">Hotels</a></li>
+            <li><a href="#" data-i18n="nav-flights">Flights</a></li>
+            <li><a href="#" data-i18n="nav-bookings">Bookings</a></li>
+        </ul>
+        <ul class="hero__header-user-login menu-part" aria-label="User interface" data-i18n-aria-label="header-ui">
+            <li><a href="#" data-i18n="ui-login">Login</a></li>
+            <li><a href="#" data-i18n="ui-signUp">Sign up</a></li>
+        </ul>
+        <select class="hero__header-lang menu-part" aria-label="Site language" data-i18n-aria-label="header-lang">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+        </select>
+      </header>
+      <!--hero main part-->
+      <div class="hero__main">
+        <div class="hero__text-block">
+            <p class="hero__text-block-subtitle" data-i18n="hero-subtitle">
+                best destinations around the world
+            </p>
+            <p class="hero__text-block-title" data-i18n="hero-title">
+                Travel, <span class=highlighted-enjoy>enjoy</span> and live a new and full life
+            </p>
+            <p class="hero__text-block-descr" data-i18n="hero-descr">
+                Built Wicket longer admire do barton vanity itself do in it. 
+                Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+            </p>
+            <div class="hero__additional">
+                <a href="#" class="hero__find-more" role="button" data-i18n="hero-findMore">Find out more</a>
+                <a href="#" class="hero__play-demo">
+                    <img src="img/Play Demo.png" alt="Play Demo" />
+                </a>
+            </div>
+        </div>
+        <div class="hero__logo" aria-label="Hero section main picture" data-i18n-aria-label="header-mainPic">
+            <img src="img/title-woman.png" alt="Title Woman" />
+        </div>
+      </div>
+    </section>
+
+    <!--main part-->
+    <main class="main" role="main">
+        <!--category part-->
+        <section class="category">
+            <div class="category__title">
+                <h3 class="category__title-text" data-i18n="cat-text">CATEGORY</h3>
+                <h2 class="category__title-adv" data-i18n="cat-adv">We Offer Best Services</h2>
+            </div>
+            <div class="category__categories">
+                <!--card-->
+                <div class="category__categories-card">
+                    <img src="img/main-cat-1.png" alt="1st pic cat" />
+                    <p class="category__categories-title" data-i18n="cat-catTitleFirst">Calculated Weather</p>
+                    <p class="category__categories-desc" data-i18n="cat-catDescFirst">Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+                <!--card-->
+                <div class="category__categories-card">
+                    <img src="img/main-cat-2.png" alt="2nd pic cat" />
+                    <p class="category__categories-title" data-i18n="cat-catTitleSecond">Best Flights</p>
+                    <p class="category__categories-desc" data-i18n="cat-catDescSecond">Engrossed listening. Park gate sell they west hard for the.</p>
+                </div>
+                <!--card-->
+                <div class="category__categories-card">
+                    <img src="img/main-cat-3.png" alt="3rd pic cat" />
+                    <p class="category__categories-title" data-i18n="cat-catTitleThird">Local Events</p>
+                    <p class="category__categories-desc" data-i18n="cat-catDescThird">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+                </div>
+                <!--card-->
+                <div class="category__categories-card">
+                    <img src="img/main-cat-4.png" alt="4th pic cat" />
+                    <p class="category__categories-title" data-i18n="cat-catTitleFourth">Customization</p>
+                    <p class="category__categories-desc" data-i18n="cat-catDescFourth">We deliver outsourced aviation services for military customers</p>
+                </div>
+            </div>
+        </section>
+        <!--Top Selling Part-->
+        <section class="top-selling">
+                <div class="top-selling__title">
+                    <h3 class="top-selling__title-sells" data-i18n="selling-title">Top Selling</h3>
+                    <h2 class="top-selling__title-dest" data-i18n="selling-dest">Top Destinations</h2>
+                </div>
+                <div class="top-selling__cards">
+                    <!--card-->
+                    <div class="top-selling__card">
+                        <div class="top-selling__card-pic">
+                            <img src="img/top-sell-pic-1.png" alt="Rome picture" />
+                        </div>
+                        <div class="top-selling__card-desc">
+                            <div class="top-selling__card-block">
+                                <p class="top-selling__card-dest" data-i18n="selling-cardTitleFirst">Rome, Italy</p>
+                                <p class="top-selling__card-price" data-i18n="selling-cardPriceFirst">$5.42k</p>
+                            </div>
+                                <p class="top-selling__card-trip" data-i18n="selling-carTripFirst"><img src="img/top-selling-card-arrow.png" alt="" aria-hidden="true" />10 Days Trip</p>
+                        </div>
+                    </div>
+                    <!--card-->
+                    <div class="top-selling__card">
+                        <div class="top-selling__card-pic">
+                            <img src="img/top-sell-pic-2.png" alt="London picture" />
+                        </div>
+                        <div class="top-selling__card-desc">
+                            <div class="top-selling__card-block">
+                                <p class="top-selling__card-dest" data-i18n="selling-cardTitleSecond">London, UK</p>
+                                <p class="top-selling__card-price" data-i18n="selling-cardPriceSecond">$4.2k</p>
+                            </div>
+                                <p class="top-selling__card-trip" data-i18n="selling-carTripSecond"><img src="img/top-selling-card-arrow.png" alt="" aria-hidden="true" />12 Days Trip</p>
+                        </div>
+                    </div>
+                    <!--card-->
+                    <div class="top-selling__card-bg">
+                        <div class="top-selling__bg">
+                            <img src="img/top-sell-pic-bg.png" alt="" aria-hidden="true" />
+                        </div>
+                        <div class="top-selling__card">
+                            <div class="top-selling__card-pic">
+                                <img src="img/top-sell-pic-3.png" alt="Europe picture" />
+                            </div>
+                            <div class="top-selling__card-desc">
+                                <div class="top-selling__card-block">
+                                    <p class="top-selling__card-dest" data-i18n="selling-cardTitleThird">Full Europe</p>
+                                    <p class="top-selling__card-price" data-i18n="selling-cardPriceThird">$15k</p>
+                                </div>
+                                    <p class="top-selling__card-trip" data-i18n="selling-carTripThird"><img src="img/top-selling-card-arrow.png" alt="" aria-hidden="true" />28 Days Trip</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!--"Book a trip" section-->
+        <section class="booking">
+            <!--Left part of section-->
+            <div class="booking__steps">
+                <h3 class="booking__steps-title" data-i18n="booking-title">Easy and Fast</h3>
+                <h2 class="booking__steps-action" data-i18n="booking-action">Book Your Next Trip In 3 Easy Steps</h2>
+                <div class="booking__step">      
+                    <img src="img/book-1st-step.png" alt="First Step" />      
+                    <p class="booking__step-title" data-i18n="booking-stepTitleFirst">Choose Destination <br/>
+                        <span class="booking__step-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                    </p>   
+                </div>
+                <div class="booking__step">
+                    <img src="img/book-2nd-step.png" alt="Second Step" />
+                    <p class="booking__step-title" data-i18n="booking-stepTitleSecond">Make Payment <br/>
+                        <span class="booking__step-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                    </p>
+                    
+                </div>
+                <div class="booking__step">  
+                    <img src="img/book-3rd-step.png" alt="Third Step" />        
+                    <p class="booking__step-title" data-i18n="booking-stepTitleThird">Reach Airport on Selected Date <br/>
+                        <span class="booking__step-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</span>
+                    </p>
+                </div>
+            </div>
+            <!--Right part of section-->
+            <div class="booking__status">
+                <div class="booking__status-card">
+                    <div class="booking__status-pic">
+                        <img src="img/book-greece-logo.png" alt="Greece Pic">
+                    </div>
+                    <p class="booking__status-title" data-i18n="booking-cardTitle">Trip To Greece</p>
+                    <p class="booking__status-details" data-i18n="booking-cardDetails">14-29 June | by Robbin jo</p>
+                    <div class="booking__status-links">
+                        <img src="img/book-card-link1.png" alt="Link one" />
+                        <img src="img/book-card-link2.png" alt="Link two" />
+                        <img src="img/book-card-link3.png" alt="Link three" />
+                    </div>
+                    <!--follower part-->
+                    <div class="booking__status-follow">
+                        <p class="booking__status-followers" data-i18n="booking-cardFollowers"><img src="img/book-card-ppl.png" alt="Following people" /> 24 people going</p>
+                        <a href="#"><img src="img/like.png" alt="Like" /></a>
+                            <div class="tooltip">
+                                <div class="tooltip__pic">
+                                    <img src="img/tooltip-pic.png" alt="Trip picture" />
+                                </div>
+                                <div class="tooltip__text">
+                                    <p class="tooltip__title" data-i18n="tooltip-title">Ongoing</p>
+                                    <p class="tooltip__desc" data-i18n="tooltip-desc">Trip To Rome</p>
+                                    <p class="tooltip__progress" aria-label="Progress done" data-i18n-aria-label="progress-done">40% <span class="tooltip__progress-text" data-i18n="tooltip-progressText">completed</span></p>
+                                    <div class="tooltip__progress-bar">
+                                        <div class="tooltip__progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--testimonials section-->
+        <section class="testnls">
+            <!--left block of testimonials section-->
+            <div class="testnls__left">
+                <h3 class="testnls__title" data-i18n="testnls-title">TESTIMONIALS</h3>
+                <h2 class="testnls__about" data-i18n="testnls-about">What People Say About Us.</h2>
+                <div class="testnls__dots">
+                    <span class="dot active" aria-hidden="true"></span>
+                    <span class="dot" aria-hidden="true"></span>
+                    <span class="dot" aria-hidden="true"></span>
+                </div>
+            </div>
+            <!--right block of testimonials section-->
+            <div class="testnls__right">
+                <div class="testnls__right-cards">
+                    <div class="testnls__card active">
+                        <div>
+                            <img src="img/avatar1.png" alt="Avatar of author" />
+                            <p class="testnls__quote" data-i18n="testnls-quoteActive">“On the Windows talking painted pasture yet its
+                             express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                            </p>
+                        </div>
+                        <div class="testnls__card-author">
+                            <p class="testnls__author" data-i18n="testnls-authorActive">Mike Taylor</p>
+                            <p class="testnls__author-loc" data-i18n="testnls-locActive">Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="testnls__card">
+                        <div>
+                            <img src="img/avatar1.png" alt="Avatar of author" />
+                            <p class="testnls__quote" data-i18n="testnls-quote">“On the Windows talking painted pasture yet its
+                                express parties use.
+                            </p>
+                        </div>
+                        <div class="testnls__card-author">
+                            <p class="testnls__author" data-i18n="testnls-author">Chris Thomas</p>
+                            <p class="testnls__author-loc" data-i18n="testnls-loc">CEO of Red Button</p>
+                        </div>
+                    </div>
+                </div>
+                <!--right block arrows for cards-->
+                <div class="testnls__arrows">
+                    <img src="img/arrow-up.png" alt="" aria-hidden="true" />
+                    <img src="img/arrow-down.png" alt="" aria-hidden="true" />
+                </div>
+            </div>
+        </section>
+        <!--Logo of cooperation-->
+        <section class="logos">
+            <div class="logos__logo">
+                <img src="img/logo1.png" alt="Cooperation Logo 1" />
+            </div>
+            <div class="logos__logo">
+                <img src="img/logo2.png" alt="Cooperation Logo 2" />
+            </div>
+            <div class="logos__logo">
+                <img src="img/logo3.png" alt="Cooperation Logo 3" />
+            </div>
+            <div class="logos__logo">
+                <img src="img/logo4.png" alt="Cooperation Logo 4" />
+            </div>
+            <div class="logos__logo">
+                <img src="img/logo5.png" alt="Cooperation Logo 5" />
+            </div>
+        </section>
+        <!--subscribe section-->
+        <section class="subscribe">
+                <div class="subscribe__wrapper">
+                    <div class="subscribe__tg">
+                        <img src="img/subs-main-form-tg.png" alt="" aria-hidden="true" />
+                    </div>
+                    <div class="subscribe__bg">
+                        <img src="img/subs-bg.png" alt="" aria-hidden="true" />
+                    </div>
+                    <div class="subscribe__block">
+                        <div class="subscribe__block--pic1"></div>
+                        <div class="subscribe__block--pic2"></div>
+                        <div class="subscribe__form">
+                            <p class="subscribe__form-title" data-i18n="subscribe-title">Subscribe to get information, latest news and other interesting offers about Jadoo</p>
+                            <div class="subscribe__mail">
+                                <div class="subscribe__input-wrapper">
+                                    <img src="img/subs-main-form-mail.png" alt="" aria-hidden="true" class="subscribe__input-icon" />
+                                    <input type="email" name="subscribe__mail-input" placeholder="Your email" 
+                                    class="subscribe__mail-input" data-i18n-placeholder="subscribe-placeholder"/>
+                                </div>
+                                <a href="#" class="subscribe__btn" role="button" data-i18n="susbscribe-buttonText">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__grid">
+            <div class="footer__brand">
+                <p class="footer__brand-title" data-i18n="footer-brandTitle">Jadoo.</p>
+                <p class="footer__brand-slogan" data-i18n="footer-brandSlogan">Book your trip in minute, get full Control for much longer.</p>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav-title" data-i18n="ftr-companyTitle">Company</p>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-companyAbout">About</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-companyCareers">Careers</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-companyMob">Mobile</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav-title" data-i18n="ftr-contactTitle">Contact</p>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-contactHelp">Help/FAQ</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-contactPress">Press</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-contactAffil">Affilates</a>
+            </div>
+            <div class="footer__nav">
+                <p class="footer__nav-title" data-i18n="ftr-moreTitle">More</p>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-moreAirFees">Airlinesfees</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-moreAirline">Airline</a>
+                <a href="#" class="footer__nav-link" data-i18n="ftr-moreTips">Low fare tips</a>
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-icons">
+                    <img src="img/fb-icon.png" alt="Facebook Icon" />
+                    <img src="img/inst-icon.png" alt="Instagram Icon" />
+                    <img src="img/tw-icon.png" alt="Twitter Icon" />
+                </div>
+                <p class="footer__social-text" data-i18n="ftr-socialText">Discover our app</p>
+                <div class="footer__social-apps">
+                    <a href="#"><img src="img/gp.png" alt="Google Play Link" /></a>
+                    <a href="#"><img src="img/as.png" alt="Apple Store Link" /></a>
+                </div>
+            </div>
+        </section>
+        <div class="footer__rights">
+            <p class="footer__rights-text" data-i18n="ftr-rightsText">All rights reserved@jadoo.co</p>
+        </div>
+        <div class="footer__bg">
+            <img src="img/footer-bg.png" alt="" aria-hidden="true" />
+        </div>
+    </footer>
+  </div>
+    <!--scripts-->
+    <script src="js/en.js" defer></script>
+    <script src="js/ru.js" defer></script>
+    <script src="js/lang-switcher.js" defer></script>
+    <script src="js/burger-btn.js" defer></script>
+</body>
+</html>
+
