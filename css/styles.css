@@ -182,7 +182,7 @@ HERO Section
   - used margin to adjust correct position on layout */
 .hero__header-lang {
   margin-right: 10%; /*move "left" all navigation list*/
-  margin-bottom: 2%; /*adjust selector position on layout*/
+  margin-bottom: 15px; /*adjust selector position on layout*/
   width: 100%;
   max-width: 50px;
   border: none;
@@ -1262,10 +1262,8 @@ Block for Site logo + navigation + UI + lang select
   /*space before cards*/
   .category__title-adv {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 42px;
     margin-bottom: 20px;
-    word-break: break-word;
-    max-width: 300px;
   }
 
   /*keep position: relative for bg pic*/
@@ -1309,7 +1307,7 @@ Block for Site logo + navigation + UI + lang select
 
   .top-selling__cards {
     grid-template-columns: repeat(1, auto);
-    gap: 30px;
+    gap: 50px;
   }
 
   /*- remove padding;
@@ -1343,20 +1341,17 @@ Block for Site logo + navigation + UI + lang select
     padding-left: 10px;
     padding-right: 0;
     padding-bottom: 70px;
-    max-width: 300px;
   }
 
   .booking__steps-title {
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
   }
 
   .booking__steps-action {
     font-size: 28px;
     line-height: 36px;
     word-break: break-word;
-    text-align: center;
   }
 
   .booking__step-title {
@@ -1404,7 +1399,6 @@ Block for Site logo + navigation + UI + lang select
   .testnls__title {
     font-size: 14px;
     line-height: 22px;
-    text-align: center;
   }
 
   .testnls__about {
@@ -1412,7 +1406,6 @@ Block for Site logo + navigation + UI + lang select
     line-height: 42px;
     word-break: break-word;
     margin-bottom: 10px;
-    text-align: center;
   }
 
   .testnls__dots {
@@ -1446,7 +1439,7 @@ Block for Site logo + navigation + UI + lang select
 
   /*avatar pic for good view*/
   .testnls__card img {
-    transform: translateX(-60%) translateY(-95%);
+    transform: translateX(-70%) translateY(-95%);
   }
 
   /*remove "border" for text*/
@@ -1516,7 +1509,6 @@ Block for Site logo + navigation + UI + lang select
 
   .subscribe__form {
     position: static;
-    max-width: 300px;
   }
 
   /*remove padding*/
