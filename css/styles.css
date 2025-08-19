@@ -21,6 +21,7 @@ body {
   background: #FFFFFF; 
   color: var(--main-color); 
   font-style: normal;
+  font-weight: 400;
 }
 
 h2 {
@@ -103,9 +104,8 @@ HERO Section
   gap: 3em;
   margin-right: 1em; /* increase "space" between menu-links and UI */
   list-style: none;
-  font-weight: 400;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 1.3em;
 }
 
 .hero__header-nav a {
@@ -189,7 +189,7 @@ HERO Section
   background-color: rgba(0, 0, 0, 0);
   font-weight: 500;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 1.3em;
   color: var(--nav-color-text);
 }
 
@@ -214,7 +214,7 @@ HERO Section
 .hero__text-block {
   padding-top: 10%; /*space from header */
   padding-right: 4%; /*make border to compact text (due to original layout) */
-  line-height: 30px;
+  line-height: 1.8em;
 }
 
 .hero__text-block-subtitle {
@@ -229,7 +229,7 @@ HERO Section
   font-family: var(--font-title);
   font-weight: 700;
   font-size: 84px;
-  line-height: 89px;
+  line-height: 1.05em;
   letter-spacing: -0.04em;
   color: #181E4B;
   padding-top: 0.4em; /*space from subtitle text*/
@@ -265,7 +265,7 @@ HERO Section
   font-family: var(--font-accent);
   font-weight: 500;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 1.2em;
   color: #FFFFFF;
 }
 
@@ -338,7 +338,7 @@ HERO Section
 .category__title-text {
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5em;
   color: #5E6282;
 }
 
@@ -346,7 +346,7 @@ HERO Section
  font-family: var(--font-title);
  font-weight: 700;
  font-size: 50px;
- line-height: 64px;
+ line-height: 1.28em;
  color: #14183E;
 }
 
@@ -396,7 +396,7 @@ HERO Section
   font-family: var(--font-accent);
   font-weight: 600;
   font-size: 20px;
-  line-height: 27px;
+  line-height: 1.35em;
   color: #1E1D4C;
   /*adjust title text position in card */ 
   margin-top: 7%;
@@ -406,7 +406,7 @@ HERO Section
 .category__categories-desc {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6em;
   color: #5E6282;
   max-width: 163px; /*make border for text in card*/
   margin: 0 auto;
@@ -451,13 +451,13 @@ HERO Section
 .top-selling__title-sells {
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5em;
 }
 
 .top-selling__title-dest {
   font-weight: 700;
   font-size: 50px;
-  line-height: 64px;
+  line-height: 1.28em;
 }
 
 .top-selling__cards {
@@ -553,13 +553,13 @@ HERO Section
 .booking__steps-title {
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5em;
 }
 
 .booking__steps-action {
   font-weight: 700;
   font-size: 50px;
-  line-height: 64px;
+  line-height: 1.28em;
   padding-right: 180px;
   padding-bottom: 30px;
 }
@@ -765,7 +765,7 @@ HERO Section
 .testnls__title {
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5em;
   text-transform: uppercase;
   color: #5E6282;
 }
@@ -773,7 +773,7 @@ HERO Section
 .testnls__about {
   font-weight: 700;
   font-size: 50px;
-  line-height: 64px;
+  line-height: 1.28em;
   text-transform: capitalize;
   margin-bottom: 50px; /*space between text and dots */
 }
@@ -850,21 +850,21 @@ HERO Section
 
 .testnls__quote {
   font-size: 16px;
-  line-height: 32px;
+  line-height: 2em;
   padding-right: 110px;
 }
 
 .testnls__author {
   font-weight: 600;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5em;
 }
 
 .testnls__author-loc {
   display: flex;
   align-items: flex-end;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5em;
 }
 
 /*arrows for cards slider*/
@@ -998,7 +998,7 @@ HERO Section
 .subscribe__form-title {
   font-weight: 600;
   font-size: 33px;
-  line-height: 54px;
+  line-height: 1.6em;
   padding: 100px 13%;
 }
 
@@ -1033,7 +1033,7 @@ HERO Section
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.2em;
   color: #39425D;
   padding-left: 60px; 
   z-index: 6;
@@ -1058,7 +1058,7 @@ HERO Section
   font-family: 'Open Sans';
   font-weight: 600;
   font-size: 17px;
-  line-height: 23px;
+  line-height: 1.3em;
   text-align: center;
   color: #FFFFFF;
 }
@@ -1114,7 +1114,7 @@ HERO Section
 
 .footer__brand-title {
   font-size: 44px;
-  line-height: 66px;
+  line-height: 1.5em;
   color: #181E4B;
 }
 
@@ -1220,7 +1220,6 @@ Block for Site logo + navigation + UI + lang select
   .hero__text-block-title {
     word-break: break-word;
     font-size: 42px;
-    line-height: 46px;
   }
 
   .hero__text-block-descr{
@@ -1256,13 +1255,11 @@ Block for Site logo + navigation + UI + lang select
 
   .category__title-text {
     font-size: 14px;
-    line-height: 22px;
   }
 
   /*space before cards*/
   .category__title-adv {
     font-size: 32px;
-    line-height: 42px;
     margin-bottom: 20px;
   }
 
@@ -1277,12 +1274,10 @@ Block for Site logo + navigation + UI + lang select
 
   .category__categories-title {
     font-size: 16px;
-    line-height: 22px;
   }
 
   .category__categories-desc {
     font-size: 12px;
-    line-height: 22px;
   }
 
 /*============
@@ -1296,13 +1291,11 @@ Block for Site logo + navigation + UI + lang select
   }
 
   .top-selling__title-sells{
-    line-height: 22px;
     font-size: 14px;
   }
 
   .top-selling__title-dest {
     font-size: 32px;
-    line-height: 48px;
   }
 
   .top-selling__cards {
@@ -1345,12 +1338,10 @@ Block for Site logo + navigation + UI + lang select
 
   .booking__steps-title {
     font-size: 16px;
-    line-height: 22px;
   }
 
   .booking__steps-action {
     font-size: 28px;
-    line-height: 36px;
     word-break: break-word;
   }
 
@@ -1360,7 +1351,6 @@ Block for Site logo + navigation + UI + lang select
 
   .booking__step {
     font-size: 14px;
-    line-height: 110%;
   }
 
     /*remove "border" for text content*/
@@ -1398,12 +1388,10 @@ Block for Site logo + navigation + UI + lang select
 
   .testnls__title {
     font-size: 14px;
-    line-height: 22px;
   }
 
   .testnls__about {
     font-size: 30px;
-    line-height: 42px;
     word-break: break-word;
     margin-bottom: 10px;
   }
@@ -1446,13 +1434,11 @@ Block for Site logo + navigation + UI + lang select
   .testnls__quote {
     padding-right: 0;
     font-size: 12px;
-    line-height: 22px;
     padding-bottom: 10px;
   }
   
   .testnls__author {
     font-size: 14px;
-    line-height: 22px;
   }
 
   /*slider arrows are off*/
@@ -1515,7 +1501,6 @@ Block for Site logo + navigation + UI + lang select
   .subscribe__form-title {
     padding: 0;
     font-size: 18px;
-    line-height: 24px;
   }
 
 /*- content form in column;
@@ -1568,7 +1553,6 @@ Block for Site logo + navigation + UI + lang select
   .footer {
     position: static;
     font-size: 14px;
-    line-height: 110%;
   }
 
 /*- all block in column(removed fixed width for first column);
@@ -1589,7 +1573,6 @@ Block for Site logo + navigation + UI + lang select
 
   .footer__brand-title {
     font-size: 30px;
-    line-height: 42px;
   }
 
   .footer__brand-slogan {
